@@ -59,17 +59,29 @@ p {
     margin-top: 0px;
 }
 
-#photography {
+#photography-container {
     border: solid 1px orange;
     width: 1000px;
+    display: flex;
 }
 
-#flex-photo {
+#images-container {
+    width: 1000px;
+    border: solid 1px gray;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
+ #flex-photo {
+
+    /*display: flex;
+    flex-direction: column wrap;
+    justify-content: space-around;
+}
+     */ }
 #photo-title {
 
 }
