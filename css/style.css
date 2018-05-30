@@ -68,19 +68,21 @@ h3 {
     color: white;
     text-align: center;
     font-size: 30px;
+    margin-left:
 }
 
 h4 {
     width: 820px;
-    height: 280px;
+    height: 145px;
     background-color: darkgray;
     text-align: center;
     margin-left: 92px;
+    font-size: 20px;
 }
 
 p {
     width: 410px;
-    height: 280px;
+    height: 330px;
     background-color: darkgray;
     text-align: center;
     margin-left: 92px;
@@ -89,6 +91,8 @@ p {
 #photography-container {
     border: solid 1px orange;
     width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 #photography-images-container {
@@ -107,15 +111,9 @@ p {
     justify-content: space-around;
 }
 
- #photography-photo-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .photography-images {
-    width: 365px;
-    height: 255px;
+    width: 768px;
+    height: 512px;
     border: 30px solid black;
     position: relative;
 }
@@ -123,6 +121,8 @@ p {
 #Digital-Media-container {
     border: solid 1px red;
     width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 #DM-images-container {
@@ -140,15 +140,9 @@ p {
     justify-content: space-around;
 }
 
-#DM-photo-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .digital-media-images {
-    width: 365px;
-    height: 255px;
+    width: 400px;
+    height: 500px;
     border: 30px solid black;
     position: relative;
 }
@@ -156,6 +150,8 @@ p {
 #Visual-container {
     border: solid 1px blue;
     width: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 #visual-images-container {
@@ -173,15 +169,9 @@ p {
     justify-content: space-around;
 }
 
-#visual-photo-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .visual-images {
-    width: 365px;
-    height: 255px;
+    width: 344px;
+    height: 344px;
     border: 30px solid black;
     position: relative;
 }
