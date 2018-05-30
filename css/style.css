@@ -7,7 +7,7 @@ body {
     left: 50%;
     width: 1000px;
     margin-left: -500px;
-    border: solid 1px green;
+   /* border: solid 1px green; */
 }
 
 nav {
@@ -68,7 +68,7 @@ h3 {
     color: white;
     text-align: center;
     font-size: 30px;
-    margin-left: 250px;
+   /* margin-left: 250px;*/
 }
 
 h4 {
@@ -89,7 +89,7 @@ p {
 }
 
 #photography-container {
-    border: solid 1px orange;
+  /*  border: solid 1px orange;*/
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ p {
 
 #photography-images-container {
     width: 1000px;
-    border: solid 1px gray;
+  /*  border: solid 1px gray;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -119,7 +119,7 @@ p {
 }
 
 #Digital-Media-container {
-    border: solid 1px red;
+  /*  border: solid 1px red; */
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@ p {
 
 #DM-images-container {
     width: 1000px;
-    border: solid 1px violet;
+  /*  border: solid 1px violet;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -148,7 +148,7 @@ p {
 }
 
 #Visual-container {
-    border: solid 1px blue;
+  /*  border: solid 1px blue; */
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -156,7 +156,7 @@ p {
 
 #visual-images-container {
     width: 1000px;
-    border: solid 1px orange;
+  /*  border: solid 1px orange; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
